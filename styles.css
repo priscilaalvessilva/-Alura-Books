@@ -18,20 +18,63 @@
 
 .menu {
     display: flex;
+    margin: 1em 0;
 }
 
 .menu_lista_link {
    display: flex;
    list-style: none;
-   margin-left: 2em;
+   margin: 0;
+   padding-left: 0;
 }
 
 .menu_lista_perfil {
     list-style: none;
     display: flex;
-    margin-left: 2em;
+    margin: 0;
+    padding-left: 20em;
+    align-items: center;
 }
 
 .menu_texto {
     margin-left: 2em;
+}
+
+.titulo {
+    padding: 3em;
+    background-color: var(--azul-principal);
+    color: var(--branco-principal);
+    text-align: center;
+}
+
+.titulo_caixa {
+    border: 1px solid;
+    border-radius: 2em;
+    padding: 1em;
+}
+
+.sub_titulo {
+    color: var(--laranja);
+    text-align: center;
+}
+
+.ultimos_lancamentos {
+    background-color: var(--azul-secundario);
+    display: flex;
+}
+
+.ultimos_lancamentos_livros {
+    padding: 5em;
+}
+
+.ultimos_lancamentos_quadro {
+    background-color: var(--branco-principal)
+    padding: 5em;
+    color: var(--laranja);
+}
+
+.ultimos_lancamentos_quadro {
+    
+
+
 }
