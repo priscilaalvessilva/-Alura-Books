@@ -1,0 +1,37 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --azul-principal: #002F52;
+    --azul-secundario: #EBECEE;
+    --laranja: #EB9B00;
+    --preto: #000000;
+    --cinza-escuro: #474646;
+    --cinza-medio: #858585;
+    --cinza-claro: #C4C4C4;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--branco-principal);
+    color: var(--preto) ;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu_lista_link {
+   display: flex;
+   list-style: none;
+   margin-left: 2em;
+}
+
+.menu_lista_perfil {
+    list-style: none;
+    display: flex;
+    margin-left: 2em;
+}
+
+.menu_texto {
+    margin-left: 2em;
+}
