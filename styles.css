@@ -21,6 +21,11 @@
     margin: 1em 0;
 }
 
+.menu_logo {
+    width: 264px;
+    height: 40px;
+}
+
 .menu_lista_link {
    display: flex;
    list-style: none;
@@ -59,22 +64,58 @@
 }
 
 .ultimos_lancamentos {
+    
     background-color: var(--azul-secundario);
     display: flex;
+    padding: 4em 1em;
 }
 
 .ultimos_lancamentos_livros {
-    padding: 5em;
+    padding: 1em;
+    margin: 1em;
 }
 
+
 .ultimos_lancamentos_quadro {
-    background-color: var(--branco-principal)
-    padding: 5em;
+    display: flex;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: var(--branco-principal);
+    background-color: var(--branco-principal);
+    padding: 1em;
+    margin: 1em;
+
+}
+
+.ultimos_lancamentos_quadro_texto {
+    text-align: left;
+
+}
+
+.ultimos_lancamentos_quadro_h3 {
     color: var(--laranja);
+    
 }
 
-.ultimos_lancamentos_quadro {
-    
+.ultimos_lancamentos_quadro_h4 {
+    color: var(--azul-principal);
 
+}
 
+.ultimos_lancamentos_quadro_botao {
+    border: 1px solid var(--laranja);
+    background-color: var(--laranja);
+    justify-content: center;
+    color: var(--branco-principal);
+    padding: 2px 2px;
+
+}
+
+.imagem_escritora {
+    width: 9em;
+}
+
+.botao {
+    list-style: none;
+    display: flex;
 }
