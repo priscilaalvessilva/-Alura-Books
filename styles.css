@@ -46,10 +46,14 @@
 }
 
 .titulo {
-    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+    text-align: center; /* Centraliza o texto */
+    padding: 20px 0; /* Espaçamento interno */
     background-color: var(--azul-principal);
     color: var(--branco-principal);
-    text-align: center;
+
 }
 
 .titulo_caixa {
@@ -61,6 +65,7 @@
 .sub_titulo {
     color: var(--laranja);
     text-align: center;
+
 }
 
 .ultimos_lancamentos {
@@ -73,6 +78,7 @@
 .ultimos_lancamentos_livros {
     padding: 1em;
     margin: 1em;
+    
 }
 
 
@@ -105,10 +111,12 @@
 .ultimos_lancamentos_quadro_botao {
     border: 1px solid var(--laranja);
     background-color: var(--laranja);
-    justify-content: center;
     color: var(--branco-principal);
-    padding: 2px 2px;
-
+    padding: 12px 20px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
 .imagem_escritora {
@@ -116,6 +124,29 @@
 }
 
 .botao {
+    display: grid;
+    gap: 20px; /* Espaçamento entre os botões */
+    justify-content: center;
+    justify-items: center;
+    width: 100%; /* Garante que os botões ocupem o espaço disponível */
+    max-width: 800px; /* Limita a largura total */
+    padding: 0;
+    margin: 0;
     list-style: none;
-    display: flex;
 }
+
+
+.botao li {
+    display: flex; /* Garante que o conteúdo do <li> use flexbox */
+    gap: 10px; /* Espaçamento entre os <p> dentro do <li> */
+}
+
+.botao_l1 {
+    margin-bottom: -1%;
+}
+
+.botao_l2 {
+    margin-top: 0%;
+}
+
+
